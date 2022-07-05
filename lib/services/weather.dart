@@ -1,6 +1,9 @@
 import 'package:climate_app/services/location.dart';
 import 'package:climate_app/services/networking.dart';
 import 'package:climate_app/Auth/secret.dart';
+// Add your API KEY by adding directory in lib named Auth and adding dart file in Auth named secret.dart
+// After adding secret.dart, Simply assign the key to the String named apiKey
+// like - String apiKey = 'x98888ferfgerg899g9re8g9ger';
 
 const openWeatherURL = 'https://api.openweathermap.org/data/2.5/weather';
 
